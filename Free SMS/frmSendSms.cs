@@ -98,8 +98,8 @@ namespace Free_SMS
             {
                 byte[] response = wb.UploadValues("http://api.txtlocal.com/send/", new NameValueCollection()
                 {
-                {"username" , "setoryz@gmail.com"},
-                {"password" , "blackAmebo2016"},
+                {"username" , ""},
+                {"password" , ""},
                 {"numbers" , number},
                 {"message" , message},
                 {"sender" , sender}
